@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Enhanced Website</title>
+    <link rel="stylesheet" href="nolife.css">
+    <script>
+        function toggleDarkMode() {
+            const body = document.body;
+            body.classList.toggle('dark-mode');
+        }
+    </script>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header-title" style="color: rgb(238, 255, 0);">Welcome to my LIFE</h1>
+        <p class="header-subtitle">Explore, Learn, and Get Inspired</p>
+        <button onclick="toggleDarkMode()" class="dark-mode-toggle">Toggle Dark Mode</button>
+    </header>
+
+    <nav class="navbar">
+        <ul class="navbar-menu">
+            <li><a href="#home" class="navbar-link">Home</a></li>
+            <li><a href="#about" class="navbar-link">About</a></li>
+            <li><a href="#hobbies" class="navbar-link">Hobbies</a></li>
+            <li><a href="#statistics" class="navbar-link">Statistics</a></li>
+            <li><a href="#feedback" class="navbar-link">Feedback</a></li>
+            <li><a href="#contact" class="navbar-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <section id="home" class="section">
+            <h2 class="section-title">Home 🏠</h2>
+            <p class="section-text">Welcome to my website! Here you can find everything about my life.</p>
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202411/chill-guy-memes-have-flooded-social-media-241142207-16x9_0.jpg?VersionId=.osD_GpxkoPy9zvr5i97YYdKPrDZAtG_&size=690:388" alt="A welcoming banner" class="section-image">
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me 🤔</h2>
+            <p class="section-text">
+                I'm a passionate student of Computer Science, and I love coding.
+                Want to learn more? Check out my <a href="https://www.faceit.com/en/players/Fara_69" target="_blank" class="section-link">FACEIT</a>.
+            </p>
+        </section>
+
+        <section id="hobbies" class="section">
+            <h2 class="section-title">My Hobbies 🏋️‍♂️🎮</h2>
+            <ul class="services-list">
+                <li>Soundpad 🎵</li>
+                <li>Gym 💪</li>
+                <li>DOTA 🎮</li>
+                <li>Having life 🚀</li>
+            </ul>
+            <img src="https://preview.redd.it/according-to-dotabuff-this-is-the-person-with-most-time-v0-ykxjw6bl8kfa1.png?width=1080&crop=smart&auto=webp&s=cf8eabf861eec8e658c570ecfbc195008448eb85" alt="Hobbies illustration" class="section-image">
+        </section>
+
+        <section id="statistics" class="section">
+            <h2 class="section-title">My Life Statistics 📊</h2>
+            <p class="section-text">Below is a bar chart representing how I spend my time daily:</p>
+            <div class="chart-container">
+                <div class="bar" style="height: 20%; background-color: #007bff;">Gaming</div>
+                <div class="bar" style="height: 40%; background-color: #28a745;">Studying</div>
+                <div class="bar" style="height: 20%; background-color: #ffc107;">Gym</div>
+                <div class="bar" style="height: 20%; background-color: #dc3545;">Relaxing</div>
+            </div>
+        </section>
+
+        <section id="feedback" class="section">
+            <h2 class="section-title">Feedback Form ✍️</h2>
+            <p class="section-text">We would love to hear your thoughts! Please fill out the form below:</p>
+            <form action="thankyou.html" method="GET" class="form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="rating" class="form-label">How would you rate this website?</label>
+                    <select id="rating" name="rating" class="form-select">
+                        <option value="excellent">Excellent</option>
+                        <option value="good">Good</option>
+                        <option value="average">Average</option>
+                        <option value="poor">Poor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="comments" class="form-label">Comments:</label>
+                    <textarea id="comments" name="comments" class="form-textarea" rows="4" placeholder="Share your thoughts..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="form-button">Submit Feedback</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Me 📞</h2>
+            <p class="section-text">Feel free to reach out to me using the following details:</p>
+            <ul class="contact-list">
+                <li><strong>Phone:</strong> 0504241015</li>
+                <li><strong>Address:</strong> USSR Küçəsi 9, Baku, Azerbaijan</li>
+                <li><strong>Email:</strong> <a href="mailto:faralvlmochi@gmail.com" class="contact-link">faralvlmochi@gmail.com</a></li>
+            </ul>
+        </section>
+        
+        
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text">© 2024 Farid Abdullayev LLC | Built with ❤️ and HTML/CSS</p>
+        <a href="#home" class="footer-link">Back to Top</a>
+    </footer>
+
+</body>
+</html>
