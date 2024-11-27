@@ -20,11 +20,11 @@ Welcome to the repository for **My Personal Website**! This website is a showcas
 To run this website locally:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/johnyzade/farasite
    ```
 2. Navigate to the project folder:
    ```bash
-   cd your-repo-name
+   cd farasite
    ```
 3. Open the `nolife.html` file in your favorite browser to view the website.
 
